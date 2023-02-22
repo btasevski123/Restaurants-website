@@ -21,14 +21,14 @@ export const Provider: React.FC<Props> = ({ children }) => {
 
   // fetch the restaurants at first
   useEffect(() => {
-    fetch("http://localhost:5001/restaurants")
+    fetch("https://delicate-six-icebreaker.glitch.me/restaurants")
       .then(res => res.json())
       .then(data => setRestaurants(data));
   }, []);
 
   // used to update the local restaurants every time we add review to it
   const handleUpdateRestaurants = () => {
-    fetch("http://localhost:5001/restaurants")
+    fetch("https://delicate-six-icebreaker.glitch.me/restaurants")
       .then(res => res.json())
       .then(data => setRestaurants(data));
   };

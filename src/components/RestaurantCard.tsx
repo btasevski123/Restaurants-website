@@ -12,7 +12,7 @@ const RestaurantCard: React.FC<{ res: RestaurantInterface }> = ({ res }) => {
     res.reviewsList.length > 0 &&
     res?.reviewsList.map((review) => review.stars).reduce((a, b) => a + b);
 
-  console.log(starsSum);
+  // console.log(starsSum);
 
   return (
     <div className="res">

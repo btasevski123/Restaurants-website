@@ -99,12 +99,6 @@
           "author": "Kristijan",
           "comment": "it was good.",
           "stars": 3
-        },
-        {
-          "id": 2,
-          "author": "asd",
-          "comment": "asd",
-          "stars": 3
         }
       ]
     },
@@ -296,14 +290,7 @@
       "slug": "zinny-delicacy",
       "email": "zinny-delicacy@gmail.com",
       "id": "5f5eccf3e923d0aca3e7d417",
-      "reviewsList": [
-        {
-          "id": 0,
-          "author": "asdf",
-          "comment": "asd",
-          "stars": 2
-        }
-      ]
+      "reviewsList": []
     },
     {
       "reviews": 0,
@@ -487,12 +474,7 @@
       "email": "hometown-restaurant@gmail.com",
       "id": "5f5eccf3e923d0aca3e7d42f",
       "reviewsList": [
-        {
-          "id": 0,
-          "author": "asd",
-          "comment": "asd",
-          "stars": 3
-        }
+        
       ]
     },
     {
@@ -572,12 +554,7 @@
       "email": "remi-kitchen@gmail.com",
       "id": "5f5eccf3e923d0aca3e7d434",
       "reviewsList": [
-        {
-          "id": 0,
-          "author": "sadasd",
-          "comment": "asdasd",
-          "stars": 4
-        }
+       
       ]
     },
     {

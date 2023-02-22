@@ -17,7 +17,7 @@ const ReviewForm: React.FC<Props> = ({ currentRes }) => {
 
     if (comment && author && stars) {
       // add it to the backend data
-      fetch(`http://localhost:5001/restaurants/${currentRes.id}`, {
+      fetch(`https://delicate-six-icebreaker.glitch.me/restaurants/${currentRes.id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",

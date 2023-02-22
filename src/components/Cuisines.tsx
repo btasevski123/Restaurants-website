@@ -8,7 +8,7 @@ const Cuisines: React.FC = () => {
   // using new Set to flatten the array - no duplicates
   const cuisines = Array.from(new Set(context?.restaurants?.map(res => res.restauranttype)));
 
-  console.log(cuisines);
+  // console.log(cuisines);
 
   return (
     <div className="container">
